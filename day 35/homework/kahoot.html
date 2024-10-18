@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კითხვები და პასუხები - Kahoot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #800080;
+            color: #fff;
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+        .question {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        h2 {
+            color: #333;
+        }
+        code {
+            background: #e7e7e7;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>კითხვები და პასუხები - Kahoot</h1>
+
+<div class="question">
+    <h2>Question 1: What is a function in Python?</h2>
+    <p><strong>Answer:</strong> ფუნქცია არის გამოსაყენებელი კოდის ბლოკი, რომელიც კონკრეტულ დავალებას ასრულებს.</p>
+    <pre><code>def greet(name):
+    return f"Hello, {name}!"</code></pre>
+    <p><strong>Explanation:</strong> ფუნქცია <code>greet</code> იღებს პარამეტრს <code>name</code> და აბრუნებს დახელოვნებას.</p>
+</div>
+
+<div class="question">
+    <h2>Question 2: How do you define a function?</h2>
+    <p><strong>Answer:</strong> გამოიყენეთ <code>def</code> გასაღები სიტყვა, შემდეგ ფუნქციის სახელით და პარამეტრებით.</p>
+    <pre><code>def add(a, b):
+    return a + b</code></pre>
+    <p><strong>Explanation:</strong> ეს ფუნქცია ემატებს ორ რიცხვს და აბრუნებს ჯამს.</p>
+</div>
+
+<div class="question">
+    <h2>Question 3: What is a return statement?</h2>
+    <p><strong>Answer:</strong> ის გამოდის ფუნქციიდან და აგზავნის მნიშვნელობას.</p>
+    <pre><code>def square(x):
+    return x ** 2</code></pre>
+    <p><strong>Explanation:</strong> ეს ფუნქცია აბრუნებს <code>x</code>-ის კვადრატს.</p>
+</div>
+
+<div class="question">
+    <h2>Question 4: How can you pass multiple arguments to a function?</h2>
+    <p><strong>Answer:</strong> გამოყავით მათ შორის virgule ფუნქციის განსაზღვრასა და გამოძახებისას.</p>
+    <pre><code>def multiply(x, y):
+    return x * y</code></pre>
+    <p><strong>Explanation:</strong> ეს ფუნქცია იღებს ორ არგუმენტს და აბრუნებს მათ პროდუქტს.</p>
+</div>
+
+<div class="question">
+    <h2>Question 5: What is a default parameter?</h2>
+    <p><strong>Answer:</strong> პარამეტრი, რომელიც აქვს დამახასიათებელ მნიშვნელობას, თუ არ არის გაწვდილი ფუნქციის გამოძახების დროს.</p>
+    <pre><code>def power(base, exp=2):
+    return base ** exp</code></pre>
+    <p><strong>Explanation:</strong> ეს ფუნქცია <code>base</code>-ს აყრის <code>exp</code>-ს ძალას, რომელშიც <code>exp</code>-ის მნიშვნელობა 2-ზეა დასანიშნი, თუ ის არ არის გაწვდილი.</p>
+</div>
+
+<div class="question">
+    <h2>Question 6: How do you handle exceptions?</h2>
+    <p><strong>Answer:</strong> გამოიყენეთ <code>try</code> და <code>except</code> ბლოკები.</p>
+    <pre><code>def safe_divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return "Cannot divide by zero."</code></pre>
+    <p><strong>Explanation:</strong> ეს ფუნქცია უსაფრთხოდ იყოფს <code>a</code>-ს <code>b</code>-ზე და აკონტროლებს ნულოვანი დაყოფის შეცდომებს.</p>
+</div>
+
+<div class="question">
+    <h2>Question 7: What is a list comprehension?</h2>
+    <p><strong>Answer:</strong> ამრიგად, ხელშესახები სიის შექმნის გამარტივებული გზა.</p>
+    <pre><code>squares = [x ** 2 for x in range(10)]</code></pre>
+    <p><strong>Explanation:</strong> ეს ქმნის კვადრატების სიის 0-დან 9-მდე.</p>
+</div>
+
+<div class="question">
+    <h2>Question 8: What is the <code>len()</code> function?</h2>
+    <p><strong>Answer:</strong> ის აბრუნებს ობიექტში არსებული ელემენტების რაოდენობას.</p>
+    <pre><code>my_list = [1, 2, 3]
+length = len(my_list)</code></pre>
+    <p><strong>Explanation:</strong> <code>len</code> აბრუნებს <code>my_list</code>-ის სიგრძეს, რომელიც არის 3.</p>
+</div>
+
+<div class="question">
+    <h2>Question 9: How can you loop through a list?</h2>
+    <p><strong>Answer:</strong> გამოიყენეთ <code>for</code> ციკლი.</p>
+    <pre><code>for item in my_list:
+    print(item)</code></pre>
+    <p><strong>Explanation:</strong> ეს ციკლი ირჩევს თითოეულ ელემენტს <code>my_list</code>-ში და იბეჭდება.</p>
+</div>
+
+<div class="question">
+    <h2>Question 10: What are Python dictionaries?</h2>
+    <p><strong>Answer:</strong> ეს არის ცვლადი მონაცემთა ტიპი, რომელიც ინახავს კლავიშ-მნიშვნელობის წყვილებს.</p>
+    <pre><code>my_dict = {'name': 'Alice', 'age': 25}</code></pre>
+    <p><strong>Explanation:</strong> <code>my_dict</code> ინახავს ორ კლავიშ-მნიშვნელობის წყვილს.</p>
+</div>
+
+</body>
+</html>

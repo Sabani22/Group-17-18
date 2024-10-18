@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Input and Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .color-box {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 2px solid #333;
+        }
+        input[type="color"] {
+            width: 60px;
+            height: 30px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Select Colors and View Images</h1>
+
+<div class="color-box" style="background-color: rgb(255, 0, 0);"></div>
+<div class="color-box" style="background-color: rgb(0, 255, 0);"></div>
+<div class="color-box" style="background-color: rgb(0, 0, 255);"></div>
+
+<div>
+    <input type="color" id="color1" value="#ff0000">
+    <input type="color" id="color2" value="#00ff00">
+    <input type="color" id="color3" value="#0000ff">
+</div>
+
+<div>
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+</div>
+
+<div>
+    <button onclick="window.location.href='page1.html'">Go to Page 1</button>
+    <button onclick="window.location.href='page2.html'">Go to Page 2</button>
+    <button onclick="window.location.href='page3.html'">Go to Page 3</button>
+</div>
+
+</body>
+</html>
