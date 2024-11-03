@@ -1,0 +1,42 @@
+/* Importing the Creepster font */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Dark background for a spooky look */
+}
+
+.scary-text {
+    font-family: 'Creepster', cursive; /* Applying Creepster font */
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 
+        0 0 5px red,
+        0 0 10px red,
+        0 0 15px red,
+        0 0 20px red;
+}
+
+.drip-effect::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.7), transparent);
+    transform: translateX(-50%);
+    filter: blur(1px);
+}
+
+/* Additional font classes */
+.arial {
+    font-family: Arial, sans-serif;
+}
