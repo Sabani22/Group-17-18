@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Link Styles</title>
+    <style>
+        a:link {
+            color: blue;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: white;
+            background-color: grey;
+        }
+
+        a:active {
+            background-color: black;
+            font-size: 1.1em;
+        }
+
+        .black-link {
+            color: black;
+            text-decoration: none;
+        }
+
+        .black-link:hover {
+            color: darkgray;
+        }
+
+        .underline-hover {
+            text-decoration: none;
+        }
+
+        .underline-hover:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Check These Out</h1>
+    <p><a href="https://facebook.com">Visit Facebook</a></p>
+    <p><a href="https://youtube.com" class="black-link">Watch on YouTube</a></p>
+    <p><a href="https://instagram.com" class="underline-hover">Explore Instagram</a></p>
+</body>
+</html>
