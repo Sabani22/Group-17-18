@@ -1,1 +1,1 @@
-print("no homework")
+print("Shevasrule codewarsebi")
