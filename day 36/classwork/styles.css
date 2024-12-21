@@ -1,0 +1,59 @@
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    border: 2px solid #4CAF50;
+    border-style: dashed;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #3E8E41;
+    outline: none;
+  }
+  
+  input[type="password"] {
+    border: 2px solid #FF5722;
+    border-style: dotted;
+    box-sizing: border-box;
+  }
+  
+  input[type="password"]:focus {
+    border-color: #D84315;
+    outline: none;
+  }
+  
+  input[type="email"] {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

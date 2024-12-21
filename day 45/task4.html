@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lemon</title>
+    <style>
+        .lemon {
+            width: 150px;
+            height: 100px;
+            background-color: #fff200;
+            border-radius: 50%;
+            position: relative;
+        }
+        .lemon::before, .lemon::after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: #fff200;
+            border-radius: 50%;
+        }
+        .lemon::before {
+            top: -25px;
+        }
+        .lemon::after {
+            bottom: -25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="lemon"></div>
+</body>
+</html>

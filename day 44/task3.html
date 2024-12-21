@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www</title>
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li::before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-image: url('icon.png');
+            background-size: cover;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Foods</h1>
+    <ul>
+        <li>pica</li>
+        <li>burger</li>
+        <li>sushi</li>
+        <li>shaurma</li>
+        <li>ice cream</li>
+    </ul>
+</body>
+</html>
