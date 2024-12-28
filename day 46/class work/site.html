@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            border-bottom: 2px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Cateogory</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
