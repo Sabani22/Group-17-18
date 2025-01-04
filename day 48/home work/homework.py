@@ -1,0 +1,1 @@
+print("every codewars completed")
