@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(232, 13%, 33%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 2rem;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: hsl(233, 47%, 7%);
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+    color: hsl(228, 45%, 44%);
+    margin-top: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: hsl(232, 13%, 33%);
+    margin-top: 1rem;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    color: hsl(233, 47%, 7%);
+  }
+  
+  .card p {
+    font-size: 0.875rem;
+    color: hsl(232, 13%, 33%);
+    margin-top: 0.5rem;
+  }
+  
+  .card img {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+  }
+  
+  .team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+  }
+  
+  .karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+  }
+  
+  .calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
