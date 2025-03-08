@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: darkgreen;
+    transition: transform 1s, border-radius 0.6s, background 0.5s, box-shadow 0.5s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover {
+    transform: scale(1.5);
+    border-radius: 50%;
+    background: blue;
+    box-shadow: 5px 5px 15px rgba(0, 0, 255, 0.6);
+}
+
+.box:active {
+    transform: rotate(720deg);
+    border-radius: 30px;
+    background: purple;
+    transition-duration: 0.7s;
+    box-shadow: 8px 8px 20px rgba(128, 0, 128, 0.7);
+}

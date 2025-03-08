@@ -1,0 +1,15 @@
+.img {
+    display: block;
+    width: 150px;
+    margin: 50px auto;
+    transition: transform 0.5s;
+    position: relative;
+}
+
+.img:hover {
+    transform: translate(500px, 300px) rotateX(360deg);
+}
+
+.img:active {
+    transform: scale(0.7) rotate(-90deg);
+}

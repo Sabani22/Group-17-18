@@ -1,0 +1,7 @@
+body {
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=1400&h=1400&s=1');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}

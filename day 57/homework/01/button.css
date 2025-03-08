@@ -1,0 +1,16 @@
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.btn:hover {
+    background: lightblue;
+}
+
+.btn:active {
+    transform: rotate(360deg) scale(1.2);
+    background: red;
+}
