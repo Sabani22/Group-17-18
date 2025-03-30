@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+#animation-div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(141, 43, 150);
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: brown;
+    }
+    25% {
+        background-color: orange;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: green;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
